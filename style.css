@@ -211,11 +211,12 @@
   text-align: center;
 }
 
-
-.elementor-48 .elementor-element.elementor-element-56a30c6 .elementor-heading-title {
-	font-family: "Bowlby One", Sans-serif;
-	font-size: 105px;
-	color: #ffffff;
+.elementor-48
+  .elementor-element.elementor-element-56a30c6
+  .elementor-heading-title {
+  font-family: "Bowlby One", Sans-serif;
+  font-size: 105px;
+  color: #ffffff;
 }
 .elementor-48 .elementor-element.elementor-element-f165c94 {
   text-align: center;
@@ -367,8 +368,8 @@
   --display: flex;
 }
 .elementor-48 .elementor-element.elementor-element-09f2120 img {
-	width: 59%;
-	opacity: 0.9;
+  width: 59%;
+  opacity: 0.9;
 }
 .elementor-48 .elementor-element.elementor-element-09f2120:hover img {
   opacity: 1;
@@ -406,7 +407,7 @@
   .elementor-element.elementor-element-99a3871
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-    /* background: white; */
+  /* background: white; */
   /* background-image: url("https://cobithedog.com/wp-content/uploads/2025/03/house-blue1-thunder.jpg"); */
   background-position: center center;
   background-size: cover;
@@ -430,7 +431,7 @@
   .elementor-element.elementor-element-99a3871
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer::before {
-  background-color: #FFB000;
+  background-color: #ffb000;
   --background-overlay: "";
 }
 .elementor-48
@@ -529,7 +530,6 @@
   width: 92%;
   filter: brightness(100%) contrast(100%) saturate(100%) blur(0px)
     hue-rotate(0deg);
- 
 }
 .elementor-48 .elementor-element.elementor-element-f5438c5 {
   --display: flex;
@@ -2173,7 +2173,7 @@ body:not(.rtl)
   .elementor-48
     .elementor-element.elementor-element-56a30c6
     .elementor-heading-title {
-    font-size: 83px;
+    font-size: 75px;
   }
   .elementor-48
     .elementor-element.elementor-element-f165c94
@@ -2578,218 +2578,277 @@ body:not(.rtl)
   }
 } /* Start custom CSS for html, class: .elementor-element-3f53aab */ /* Using em for your padding-left is going to ensure the padding scales in proportion to the font-size. */
 
-
 .content {
-    font-family: 'Bowlby One', sans-serif;
-    font-size: 2rem;
-    font-weight: 500;
-    color: #111111;
-    padding-left: 0.25em;
+  font-family: "Bowlby One", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #111111;
+  padding-left: 0.25em;
 }
 
 @media only screen and (max-width: 767px) {
-    .content {
-        font-size: 2rem !important;
-        padding-left: 0.25em;
-    }
+  .content {
+    font-size: 2rem !important;
+    padding-left: 0.25em;
+  }
 }
 
 .outer {
-    overflow: hidden;  !important;
+  overflow: hidden !important;
 }
 
 .outer div {
-    display: inline-block;
+  display: inline-block;
 }
 
 .loop {
-    white-space: nowrap;
-    animation: loop-anim 45s linear infinite;
+  white-space: nowrap;
+  animation: loop-anim 45s linear infinite;
 }
 
 @media only screen and (max-width: 767px) {
-    .loop {
-        animation: loop-anim 30s linear infinite;
-    }
+  .loop {
+    animation: loop-anim 30s linear infinite;
+  }
 }
 
 @keyframes loop-anim {
-    0% {
-        margin-left: 0;
-    }
-    100% {
-        margin-left: -50% /* This works because of the div between "outer" and "loop" */
-    }
-}/* End custom CSS */
-/* Start JX Custom Fonts CSS *//* End JX Custom Fonts CSS */
-/* Start JX Custom Fonts CSS *//* End JX Custom Fonts CSS */
-/* Start JX Custom Fonts CSS *//* End JX Custom Fonts CSS */
-
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -50%; /* This works because of the div between "outer" and "loop" */
+  }
+} /* End custom CSS */
+/* Start JX Custom Fonts CSS */ /* End JX Custom Fonts CSS */
+/* Start JX Custom Fonts CSS */ /* End JX Custom Fonts CSS */
+/* Start JX Custom Fonts CSS */ /* End JX Custom Fonts CSS */
 
 .roadmap-main {
-	max-width: 91%;
-  width:92%;
-	margin: 0 auto;
-	padding: 5%;
+  max-width: 91%;
+  width: 92%;
+  margin: 0 auto;
+  padding: 5%;
 }
 
-.road-title{
+.road-title {
   font-family: "Bowlby One", Sans-serif;
   font-size: 120px;
   color: #ffffff;
   text-align: center;
   margin-bottom: 8%;
-
 }
 
-.roadmap-div{
+.roadmap-div {
   color: white;
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 30px;
-
 }
 
 .road-card {
-	color: white;
-	text-align: left;
-	padding: 25px;
-	border: 2px solid white;
-	border-radius: 12px;
-	margin: 10px;
-	width: 33%;
-	height: auto;
-	max-width: 100%;
+  color: white;
+  text-align: left;
+  padding: 25px;
+  border: 2px solid white;
+  border-radius: 12px;
+  margin: 10px;
+  width: 33%;
+  height: auto;
+  max-width: 100%;
 }
-.road-card h3{
+.road-card h3 {
   color: white;
   font-family: "Bowlby One", Sans-serif;
   font-size: 24px;
-
 }
-.road-card p{
+.road-card p {
   color: white;
   font-family: "Quicksand", Sans-serif;
   font-size: 22px;
 }
 
 @media screen and (max-width: 768px) {
-
-  .roadmap-main{
+  .roadmap-main {
     max-width: 767px;
     margin: 0 auto;
   }
 
-  .roadmap-div{
+  .roadmap-div {
     flex-direction: column;
   }
 
-  .road-card{
+  .road-card {
     height: auto;
     width: 100%;
   }
 
-  .road-title{
-    font-size: 55px;
+  .road-title {
+    font-size: 50px;
   }
 
-  .mob-div{
+  .mob-div {
     display: none;
   }
 }
 
-
-   nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 1rem 2rem;
-      background-color: white;
-      border-bottom: 1px solid #ddd;
-      flex-wrap: wrap;
-    }
-
-    .logo {
-      font-weight: bold;
-      font-size: 1.5rem;
-    }
-
-    .nav-icons {
-      display: flex;
-      gap: 1rem;
-    }
-
-    .icon-box {
-      width: 40px;
-      height: 40px;
-      background-color: black;
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 4px;
-      cursor: pointer;
-      transition: transform 0.2s ease;
-    }
-
-    .icon-box:hover {
-      transform: scale(1.1);
-    }
-
-    .nav-buttons {
-      display: flex;
-      gap: 0.75rem;
-    }
-
-    .nav-buttons button {
-      padding: 0.5rem 1rem;
-      background-color: red;
-      color: white;
-      border: 2px solid black;
-      border-radius: 4px;
-      cursor: pointer;
-      transition: background 0.3s, transform 0.2s;
-    }
-
-    .nav-buttons button:hover {
-      background-color: darkred;
-      transform: translateY(-2px);
-    }
-.tknBox{
-      width: 70%; padding: 34px 30px; text-align: center; border: 2px solid white; border-radius: 9px;background-color: black;font-size:30px;font-weight: bold;
-    }
-    @media (max-width: 768px) {
-      .roadmap-main {
-	
-	width: 100%;
-	margin: 0 auto;
-	padding: 5%;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
 }
-       .elementor-48
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon-box {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.icon-box:hover {
+  transform: scale(1.1);
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.nav-buttons button {
+  padding: 0.5rem 1rem;
+  background-color: red;
+  color: white;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.nav-buttons button:hover {
+  background-color: darkred;
+  transform: translateY(-2px);
+}
+.tknBox {
+  width: 70%;
+  padding: 34px 30px;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 9px;
+  background-color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .roadmap-main {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5%;
+  }
+  .elementor-48
     .elementor-element.elementor-element-be60ba1
     .elementor-heading-title {
-    font-size: 50px;
+    font-size: 45px;
   }
-   .elementor-48
+  .elementor-48
     .elementor-element.elementor-element-3b100eb
     .elementor-heading-title {
     font-size: 50px;
   }
-      nav {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1rem;
-      }
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
 
-      .nav-icons,
-      .nav-buttons {
-        justify-content: center;
-        width: 100%;
-      }
-      .tknBox{
-      width: 100%; padding: 34px 30px; text-align: center; border: 2px solid white; border-radius: 9px;background-color: black;font-size:30px;font-weight: bold;
-    }
-    }
+  .nav-icons,
+  .nav-buttons {
+    justify-content: center;
+    width: 100%;
+  }
+  .tknBox {
+    width: 100%;
+    padding: 34px 30px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 9px;
+    background-color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
 
-    
+/* mobile nav */
+
+.mobile-nav {
+  display: none;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: white;
+  z-index: 2000;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+  }
+
+  .mobile-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    width: 100%;
+    height: 100vh;
+    padding: 6rem 2rem;
+    z-index: 1000;
+    overflow-y: auto;
+    flex-direction: column;
+  }
+
+  .mobile-nav.open {
+    display: flex;
+  }
+
+  .mobile-nav .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+
+  .mobile-nav .menu li a {
+    color: white;
+    font-size: 1.25rem;
+    text-decoration: none;
+  }
+}
