@@ -2419,105 +2419,14 @@ padding:9x 35px ;border-radius: 10px;
               </div>
             </div>
             <div class="elementor-element elementor-element-15c7325 elementor-widget elementor-widget-html"
-            style="border: 3px solid #111;
-	border-radius: 30px;"
+           
               data-id="15c7325" data-element_type="widget" data-widget_type="html.default">
-              <div class="elementor-widget-container">
-                <div class="copy-container">
-                  <span id="contractAddress"   style="color:#000">5B8jpiDY6WftBdwEyL3LWwYKeDSVikUpXoSYZhFxbonk  </span>
-                  <button class="copy-btn" onclick="copyToClipboard()">
-                    <i class="eicon-copy"></i>
-                  </button>
-                </div>
 
-                <script>
-                  function copyToClipboard() {
-                    var contractText =
-                      document.getElementById("contractAddress");
-                    var originalText = contractText.innerText;
-
-                    // Set fixed width by storing the original width before changing text
-                    var textWidth = contractText.offsetWidth;
-                    contractText.style.width = textWidth + "px"; // Maintain the width
-
-                    // Copy to clipboard
-                    navigator.clipboard
-                      .writeText(originalText)
-                      .then(function () {
-                        contractText.innerText = "Copied!";
-
-                        // Revert back after 3 seconds
-                        setTimeout(function () {
-                          contractText.innerText = originalText;
-                          contractText.style.width = "auto"; // Reset width
-                        }, 3000);
-                      })
-                      .catch(function (err) {
-                        console.error("Could not copy text: ", err);
-                      });
-                  }
-                </script>
-
-                <style>
-                  .copy-container {
-                    display: flex;
-                    align-items: center;
-                    background: white;
-                    padding: 10px 15px;
-                    border-radius: 25px;
-                    width: 100%;
-                    justify-content: space-between;
-                    box-sizing: border-box;
-                  }
-
-                  #contractAddress {
-                    color: #179bff;
-                    /* Blue text */
-                    font-weight: 400;
-                    flex-grow: 1;
-                    text-align: center;
-                    font-size: 25px;
-                    padding-right: 10px;
-                    transition: color 0.3s ease, width 0.3s ease;
-                    display: inline-block;
-                    white-space: nowrap;
-                    overflow: hidden;
-                    text-overflow: ellipsis;
-                    text-align: center;
-                  }
-
-                  .copy-btn {
-                    background: none;
-                    border: none;
-                    cursor: pointer;
-                    font-size: 25px;
-                    padding: 5px;
-                    display: flex;
-                    align-items: center;
-                    outline: none;
-                    /* Removes red focus ring */
-                  }
-
-                  .copy-btn i {
-                    font-size: 20px;
-                    color: #179bff;
-                    /* Blue icon */
-                    outline: none;
-                    /* Removes focus ring on the icon */
-                  }
-
-                  .copy-btn:focus,
-                  .copy-btn i:focus {
-                    outline: none;
-                    /* Extra precaution to remove focus ring */
-                  }
-
-                  .copy-btn:hover i {
-                    color: #117acc;
-                    /* Slightly darker blue on hover */
-                  }
-                </style>
-              </div>
+              <!-- copy ca buton -->
+               <div class="copy-container">
+    <span id="contractAddress">5B8jpiDY6WftBdwEyL3LWwYKeDSVikUpXoSYZhFxbonk</span>
+    <button class="copy-btn" onclick="copyToClipboard(this)" style="background-color: #ED2B20;border-radius: 10px;color:#fff;border:2px solid #000;">Copy</button>
+  </div>
             </div>
             <div
               class="elementor-element elementor-element-2c13b8b elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-heading"
@@ -2531,7 +2440,7 @@ padding:9x 35px ;border-radius: 10px;
                         font-size: 18px;
                         text-align: center;
                       ">
-                    <span style="color: inherit">CLICK ABOVE TO COPY</span>
+                    <!-- <span style="color: #000;">CLICK ABOVE TO COPY</span> -->
                   </h2>
                 </h2>
               </div>
@@ -2938,7 +2847,7 @@ padding:9x 35px ;border-radius: 10px;
             <!-- horizontal card -->
               <p class="ecoCard no-break" style="text-align: center;z-index: 99999;">
                  <b> WrongAI:</b> The AI That’s Always Wrong
-WrongAI is your go-to for hilariously bad crypto predictions, memes, and AI-generated nonsense. Ask it anything, and it’ll spit out answers so wrong, they’re almost right. Here are some features of it :-
+WrongAI is your go-to for hilariously bad crypto predictions, memes, and AI-generated nonsense. Ask it anything, and it’ll spit out answers so wrong, they’re almost right. Here are some features of it :
 <br> <br>
  1. Meme-worthy predictions, $WRONG-themed art, and community chats.
 <br> <br>
@@ -2965,7 +2874,7 @@ background-color: #ED2B20;color:white;font-size:20px;border:2px solid #fff;borde
  4.  Project Marketing: WrongDotFun serves as a marketing platform for tokens launched on @bonk_fun, offering tools like project card upgrades to increase exposure. Revenue from the platform is used for $BONK and $WRONG buybacks, burns, and marketing efforts, including centralized exchange listings, to drive project growth and community engagement
 
  <br><br>
- 5. Built for ease of use within the BONK ecosystem, WrongDotFun emphasizes community-driven growth. Meme coins are highly volatile, so thorough research is essential before participating.[](https://www.bitrue.com/blog/bonk-fun-your-solana-meme-gateway)
+ 5. Built for ease of use within the BONK ecosystem, WrongDotFun emphasizes community-driven growth. Meme coins are highly volatile, so thorough research is essential before participating.
 
  <br><br>
  <a href="https://wrong.fun/" target="_blank" style="text-decoration: none;display: inline-block;
@@ -4766,6 +4675,23 @@ background-color: #ED2B20;color:white;font-size:20px;border:2px solid #fff;borde
     });
   </script>
   <script src="https://img1.wsimg.com/traffic-assets/js/tccl-tti.min.js" onload="window.tti.calculateTTI()"></script>
+
+   <script>
+    function copyToClipboard(button) {
+      const text = document.getElementById("contractAddress").textContent.trim();
+      navigator.clipboard.writeText(text).then(() => {
+        const originalText = button.textContent;
+        button.textContent = "Copied!";
+        button.disabled = true;
+        setTimeout(() => {
+          button.textContent = originalText;
+          button.disabled = false;
+        }, 2000);
+      }).catch(() => {
+        alert("Copy failed");
+      });
+    }
+  </script>
 </body>
 
 </html>

@@ -2776,7 +2776,44 @@ nav {
 .no-break {
   word-break: keep-all;
 }
+.copy-container {
+  background: #fff8c6;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 0px #000;
+  max-width: 90%;
+  width: 400px;
+}
 
+#contractAddress {
+  color: #000;
+  flex-grow: 1;
+  overflow-x: auto;
+  white-space: nowrap;
+  font-size: 1rem;
+}
+
+.copy-btn {
+  margin-left: 10px;
+  padding: 8px 14px;
+  background-color: #0073d7;
+  color: #fff;
+
+  font-size: 20px;
+  border: none;
+  border-radius: 6px;
+  border: 2px solid #000;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.copy-btn:hover {
+  background-color: #005bb5;
+  transform: scale(1.05);
+}
 @media (max-width: 768px) {
   .whyCard {
     width: 100%;
