@@ -2629,6 +2629,7 @@ body:not(.rtl)
   width: 92%;
   margin: 0 auto;
   padding: 5%;
+  z-index: 100000;
 }
 
 .road-title {
@@ -2750,16 +2751,40 @@ nav {
   transform: translateY(-2px);
 }
 .tknBox {
-  width: 70%;
+  width: 68%;
   padding: 34px 30px;
   text-align: center;
   border: 2px solid white;
   border-radius: 9px;
   background-color: black;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
 }
+
+.whyCard {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 9px;
+  text-align: center;
+  margin-bottom: 12px;
+  background-color: black;
+  color: white;
+  text-align: left;
+}
 @media (max-width: 768px) {
+  .whyCard {
+    width: 100%;
+
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 9px;
+    text-align: center;
+    margin-bottom: 12px;
+    background-color: black;
+    color: white;
+    text-align: left;
+  }
   .roadmap-main {
     width: 100%;
     margin: 0 auto;
@@ -2814,6 +2839,17 @@ nav {
   position: relative;
 }
 
+/* ecosyestem card */
+.ecoCard {
+  color: white;
+  width: 100%;
+  max-width: 966px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  margin-bottom: 35px;
+}
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
