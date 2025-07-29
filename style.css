@@ -2772,6 +2772,11 @@ nav {
   color: white;
   text-align: left;
 }
+
+.no-break {
+  word-break: keep-all;
+}
+
 @media (max-width: 768px) {
   .whyCard {
     width: 100%;
